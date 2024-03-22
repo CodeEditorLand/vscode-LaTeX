@@ -1,7 +1,31 @@
 {
-	"activationEvents": [
-		"*"
-	],
+	"name": "latex",
+	"displayName": "[DEPRECATED] LaTeX Language Support",
+	"version": "0.0.1",
+	"private": false,
+	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"main": "./out/extension",
+	"scripts": {
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
+		"vscode:prepublish": "tsc -p ./"
+	},
 	"contributes": {
 		"configuration": {
 			"properties": {
@@ -53,10 +77,12 @@
 			}
 		]
 	},
+	"activationEvents": [
+		"*"
+	],
 	"dependencies": {
 		"open": "10.1.0"
 	},
-	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
 	"devDependencies": {
 		"@types/mocha": "10.0.6",
 		"@types/node": "20.11.30",
@@ -65,15 +91,8 @@
 		"typescript-esbuild": "0.4.5",
 		"vscode": "1.0.0"
 	},
-	"displayName": "[DEPRECATED] LaTeX Language Support",
-	"icon": "images/iconLaTeX.png",
-	"main": "./out/extension",
-	"name": "latex",
-	"scripts": {
-		"compile": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
-		"vscode:prepublish": "tsc -p ./"
+	"publishConfig": {
+		"access": "public"
 	},
-	"type": "module"
+	"icon": "images/iconLaTeX.png"
 }
