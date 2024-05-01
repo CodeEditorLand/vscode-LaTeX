@@ -1,32 +1,14 @@
 {
-	"name": "latex",
-	"displayName": "[DEPRECATED] LaTeX Language Support",
-	"version": "0.0.1",
-	"private": false,
-	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
-	"keywords": [
-		"land"
+	"activationEvents": [
+		"*"
 	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandLaTeX#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandLaTeX/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandLaTeX.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "🌆 — Land —",
 		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
 		"url": "HTTPS://Land.PlayForm.Cloud"
 	},
-	"type": "module",
-	"main": "./out/extension",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"compile": "tsc -watch -p ./",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandLaTeX/issues"
 	},
 	"contributes": {
 		"configuration": {
@@ -79,19 +61,37 @@
 			}
 		]
 	},
-	"activationEvents": [
-		"*"
-	],
 	"dependencies": {
 		"open": "10.1.0"
 	},
+	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
 		"@types/node": "20.12.7"
 	},
+	"displayName": "[DEPRECATED] LaTeX Language Support",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandLaTeX#readme",
+	"icon": "images/iconLaTeX.png",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "./out/extension",
+	"name": "latex",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
 	},
-	"icon": "images/iconLaTeX.png"
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandLaTeX.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"compile": "tsc -watch -p ./",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
