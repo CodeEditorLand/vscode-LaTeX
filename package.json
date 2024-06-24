@@ -61,10 +61,10 @@
 		"*"
 	],
 	"dependencies": {
-		"open": "^0.0.5"
+		"open": "^10.1.0"
 	},
 	"devDependencies": {
-		"@types/node": "^6.0.40"
+		"@types/node": "^20.14.8"
 	},
 	"icon": "images/iconLaTeX.png"
 }
