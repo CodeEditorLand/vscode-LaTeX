@@ -64,7 +64,7 @@
 		"open": "10.1.0"
 	},
 	"devDependencies": {
-		"@types/node": "20.14.8"
+		"@types/node": "20.14.9"
 	},
 	"icon": "images/iconLaTeX.png"
 }
