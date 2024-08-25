@@ -58,7 +58,7 @@
 	},
 	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
 	"devDependencies": {
-		"@types/node": "22.4.0"
+		"@types/node": "22.5.0"
 	},
 	"displayName": "[DEPRECATED] LaTeX Language Support",
 	"icon": "images/iconLaTeX.png",
