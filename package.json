@@ -54,11 +54,11 @@
 		]
 	},
 	"dependencies": {
-		"open": "^0.0.5"
+		"open": "10.1.0"
 	},
 	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
 	"devDependencies": {
-		"@types/node": "^6.0.40"
+		"@types/node": "22.6.0"
 	},
 	"displayName": "[DEPRECATED] LaTeX Language Support",
 	"icon": "images/iconLaTeX.png",
