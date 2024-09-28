@@ -1,11 +1,7 @@
 {
-	"name": "latex",
-	"displayName": "[DEPRECATED] LaTeX Language Support",
-	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
-	"main": "./out/extension",
-	"scripts": {
-		"compile": "tsc -watch -p ./"
-	},
+	"activationEvents": [
+		"*"
+	],
 	"contributes": {
 		"configuration": {
 			"properties": {
@@ -57,14 +53,18 @@
 			}
 		]
 	},
-	"activationEvents": [
-		"*"
-	],
 	"dependencies": {
 		"open": "10.1.0"
 	},
+	"description": "[DEPRECATED] LaTeX - colorizer, grammar and snippets.",
 	"devDependencies": {
 		"@types/node": "22.7.3"
 	},
-	"icon": "images/iconLaTeX.png"
+	"displayName": "[DEPRECATED] LaTeX Language Support",
+	"icon": "images/iconLaTeX.png",
+	"main": "./out/extension",
+	"name": "latex",
+	"scripts": {
+		"compile": "tsc -watch -p ./"
+	}
 }
