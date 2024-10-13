@@ -1,8 +1,8 @@
 # [DEPRECATED] VSCode-LaTeX README
 
-An extension for [Visual Studio Code](https://code.visualstudio.com) that adds
+An extension for [`Visual Studio Code`](https://code.visualstudio.com) that adds
 basic support for LaTeX. This extension is based on the
-[tmBunble for LaTeX](https://github.com/textmate/latex.tmbundle).
+[`tmBunble for LaTeX`](https://github.com/textmate/latex.tmbundle).
 
 -   Syntax colorization
 -   Bracket Matching
@@ -13,7 +13,7 @@ basic support for LaTeX. This extension is based on the
 
 | Go from boring                           | To fun                                  |
 | ---------------------------------------- | --------------------------------------- |
-| ![LaTeX Before](images/LaTeX-before.png) | ![LaTeX Before](images/LaTeX-after.png) |
+| ![`LaTeX Before](images/LaTeX-before.png) | ![LaTeX Before`](images/LaTeX-after.png) |
 
 # Release Notes
 
@@ -24,7 +24,7 @@ basic support for LaTeX. This extension is based on the
 -   SurroundingPair,
 -   Various fixes.
 
-Thanks for the pull requests [@GaaH](https://github.com/GaaH]),
-[@xaverh](https://github.com/xaverh),
-[@faustinoaq](https://github.com/faustinoaq),
-[@mwillsey](https://github.com/mwillsey)
+Thanks for the pull requests [`@GaaH`](https://github.com/GaaH]),
+[`@xaverh`](https://github.com/xaverh),
+[`@faustinoaq`](https://github.com/faustinoaq),
+[`@mwillsey`](https://github.com/mwillsey)
