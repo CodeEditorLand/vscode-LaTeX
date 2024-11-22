@@ -37,15 +37,19 @@ export function activate(context: vscode.ExtensionContext): void {
 						open(
 							"https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop",
 						);
+
 						break;
+
 					case upgradeAction.Stop:
 						config.update("StopAsking", true, true);
 						console.log("Wrote setting...");
+
 						break;
 				}
 			});
 	}
 
 	let subscriptions: vscode.Disposable[] = context.subscriptions;
+
 	let toggleCmd: vscode.Disposable;
 }
