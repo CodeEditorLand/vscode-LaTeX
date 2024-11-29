@@ -34,6 +34,7 @@ export function activate(context: vscode.ExtensionContext): void {
 				switch (selection && selection.id) {
 					case upgradeAction.Search:
 						var open = require("open");
+
 						open(
 							"https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop",
 						);
@@ -42,6 +43,7 @@ export function activate(context: vscode.ExtensionContext): void {
 
 					case upgradeAction.Stop:
 						config.update("StopAsking", true, true);
+
 						console.log("Wrote setting...");
 
 						break;
